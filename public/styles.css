@@ -1,0 +1,13 @@
+body {
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: "lato", sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+}
