@@ -19,7 +19,7 @@ app.use(express.static("public"));
 app.post('/addtask', function (req, res) {
 	var newTask = req.body.newtask;
 	//add the new task from the post route into the array
-	task.push(newTask);
+	if (newTask != "") task.push(newTask);
 	//after adding to the array go back to the root route
 	res.redirect("/");
 });
